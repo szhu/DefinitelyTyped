@@ -1103,7 +1103,7 @@ declare module _ {
         * @param array The array to split
         * @param count The maximum size of the inner arrays.
         */
-        chunk<T>(array: _.Collection<T>, count: number): (_.Collection<T>)[]
+        chunk<T>(array: T[], count: number): T[][]
 
         /*************
          * Functions *
